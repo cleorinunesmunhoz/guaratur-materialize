@@ -1,0 +1,23 @@
+{
+  "name": "guaratur-materialize",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo desenvolvido para ensinar **Materialize CSS** em sala de aula.   O site apresenta uma página única (single page) com informações turísticas de Guarapuava-PR, utilizando recursos de **front-end responsivo**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleorinunesmunhoz/guaratur-materialize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleorinunesmunhoz/guaratur-materialize/issues"
+  },
+  "homepage": "https://github.com/cleorinunesmunhoz/guaratur-materialize#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
+}
