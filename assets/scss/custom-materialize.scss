@@ -1,0 +1,19 @@
+// 1) Importa as cores e variáveis base do Materialize
+@import "../../node_modules/materialize-css/sass/components/color-variables";
+@import "../../node_modules/materialize-css/sass/components/color-classes";
+
+// 2) Suas variáveis personalizadas
+$primary-color: color("deep-purple", "darken-1");
+$secondary-color: color("amber", "lighten-1");
+$font-family: 'Roboto', sans-serif;
+
+$card-padding: 24px;
+$button-radius: 4px;
+
+// 3) Importa todo o Materialize usando suas variáveis
+@import "../../node_modules/materialize-css/sass/materialize.scss";
+
+// 4) Estilos extras opcionais
+.navbar-fixed {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
